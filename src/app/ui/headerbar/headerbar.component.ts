@@ -8,6 +8,6 @@ import { IdentityComponent } from '../identity/identity.component';
   templateUrl: './headerbar.component.html',
   styleUrl: './headerbar.component.scss'
 })
-export class headerbarComponent {
+export class HeaderbarComponent {
 
 }
