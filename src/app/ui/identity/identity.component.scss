@@ -1,11 +1,6 @@
-
 .bottom-text {
     font-size: x-small;
 }
-
-// .header-icon {
-//     margin-left: 10px;
-// }
 
 .main {
     width: fit-content;
@@ -13,10 +8,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 5px;
-}
-
-.box {
-    border: 1px solid black;
 }
 
 .tight {
@@ -30,4 +21,9 @@
 .tight-text {
     margin-bottom: -5px;
     padding: 0px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
