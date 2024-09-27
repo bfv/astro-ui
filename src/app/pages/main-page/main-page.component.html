@@ -1,2 +1,6 @@
 <p>main-page works!</p>
 <button mat-flat-button (click)="changeLogin()">{{ buttonText }}</button>
+<app-inputted [inputtedVal]="valToOutput"></app-inputted>
+
+<button mat-flat-button (click)="outputVal('hello')">hello</button>
+<button mat-flat-button (click)="outputVal('goodbye')">goodbye</button>
